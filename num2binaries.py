@@ -3,6 +3,9 @@ import argparse
 
 
 def binary(num):
+    '''
+    Convert number to set of numbers based on bits
+    '''
     result = []
     mask = 1
     while num > 0:
